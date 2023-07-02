@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daniel Merkin Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
+
   <body>
     <nav>
+      <h1>Daniel Merkin</h1>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -15,42 +18,90 @@
       </ul>
     </nav>
 
-    
     <main>
-      <header>
-        <h1>Daniel Merkin</h1>
-      </header>
+      <header class="hero"></header>
 
-      <section id="about" class="about">
+      <section id="about">
         <h2>About Me</h2>
-        <figure>
-          <img src="" alt="Daniel Merkin" />
-          <figcaption>
+        <div class="about">
+          <img src="https://via.placeholder.com/250" alt="Daniel Merkin" />
+          <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
             laudantium repudiandae rem ipsa! Tempore culpa eligendi quam,
             tenetur, voluptate quae consectetur nesciunt sapiente eius
             architecto totam vero! Provident, rerum magni!
-          </figcaption>
-        </figure>
-      </section>
-
-      <section id="projects" class="projects">
-        <h3>Previous Work</h3>
-        <div>
-          <a href="https://dmerk2.github.io/Random-Password-Generator/"
-            ><img
-              src="./assets/images/pw_generator.png"
-              alt="Random-Password-Generator"
-              id="pw_generator"
-          /></a>
+          </p>
         </div>
       </section>
 
-      <section id="contact" class="contact">
-        <h3>Contact Me</h3>
+      <section id="projects">
+        <h2>Previous Work</h2>
+        <div class="projects">
+          <a href="https://github.com/dmerk2/Horiseon_Code_Refactor">
+            <h3>Horiseon Website</h3>
+            <img src="./assets/images/horiseon.png" alt="Horiseon Website"/>
+          </a>
+          <a href="https://dmerk2.github.io/Random-Password-Generator/">
+            <h3>Random Password Generator</h3>
+            <img src="./assets/images/pw_generator.png" alt="Random-Password-Generator"/>
+          </a>
+          <a href="#">
+            <h3>Coming Soon</h3>
+            <img src="https://via.placeholder.com/250" alt="Coming Soon"/>
+          </a>
+          <a href="#">
+            <h3>Coming Soon</h3>
+            <img src="https://via.placeholder.com/250" alt="Coming Soon" />
+          </a>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact">
+          <div>
+            <ul>
+              <li>Github: <a href="https://github.com/dmerk">dmerk2</a></li>
+              <li>
+                Email:
+                <a href="mailto:dan.merkin@gmail.com">dan.merkin@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <form>
+              <p>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="John Smith"><br />
+              </p>
+              <p>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="johnsmith@gmail.com"><br />
+              </p>
+              <p>
+                <label for="services">What services do you need?</label>
+                <select name="services" id="services">
+                  <option value="webDevelopment">Web Development</option>
+                  <option value="webDesign">Web Design</option>
+                  <option value="seo">SEO</option>
+                </select><br />
+              </p>
+              <p>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">I am not a robot</label>
+              </p>
+              <button id="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+
       </section>
     </main>
 
-    <footer><p>&copy 2023 Daniel Merkin</p></footer>
+    <footer>
+      <p>&copy 2023 Daniel Merkin</p>
+    </footer>
   </body>
+
 </html>
