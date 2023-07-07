@@ -14,19 +14,18 @@
       <nav>
         <ul>
           <li><a href="#aboutSection">About</a></li>
+          <li><a href="#skillsSection">Skills</a></li>
           <li><a href="#projectsSection">Projects</a></li>
           <li><a href="#contactSection">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-
     <main>
       <figure class="hero"></figure>
 
       <section id="aboutSection">
         <h2>About Me</h2>
-        <hr>
         <div class="about">
           <img src="https://via.placeholder.com/250" alt="Daniel Merkin" />
           <p>
@@ -38,22 +37,26 @@
         </div>
       </section>
 
-      <section>
+      <section id="skillsSection">
         <h2>Skills</h2>
-        <hr>
-        <div id="skills">
-          <label for="html">HTML </label>
-          <progress id="html" value="95" max="100"></progress>
-          <label for="css">CSS </label>
-          <progress id="css" value="70" max="100"></progress>
-          <label for="js">JavaScript </label>
-          <progress id="js" value="50" max="100"></progress>
+        <div class="skills">
+          <div>
+            <label for="html">HTML </label>
+            <progress id="html" value="95" max="100"></progress>
+          </div>
+          <div>
+            <label for="css">CSS </label>
+            <progress id="css" value="70" max="100"></progress>
+          </div>
+          <div>
+            <label for="js">JavaScript </label>
+            <progress id="js" value="50" max="100"></progress>
+          </div>
         </div>
       </section>
 
       <section id="projectsSection">
-        <h2>Previous Work</h2>
-        <hr>
+        <h2>Projects</h2>
         <div class="projects">
           <div id="project-1">
             <a href="https://github.com/dmerk2/Horiseon_Code_Refactor">
@@ -63,14 +66,14 @@
           </div>
           <div>
             <a href="https://dmerk2.github.io/Random-Password-Generator/">
-              <h3>Random Password Generator</h3>
-              <img src="./assets/images/pw_generator.png" alt="Random-Password-Generator" />
+              <h3>Password Generator</h3>
+              <img src="./assets/images/pw_generator.png" alt="Password-Generator" />
             </a>
           </div>
           <div>
             <a href="#">
-              <h3>Coming Soon</h3>
-              <img src="https://via.placeholder.com/250" alt="Coming Soon" />
+              <h3>Lemon Valley </h3>
+              <img src="./assets/images/lemon_valley.png" alt="Lemon Valley Restaurant" />
             </a>
           </div>
           <div>
@@ -84,11 +87,10 @@
 
       <section id="contactSection">
         <h2>Contact Me</h2>
-        <hr>
         <div class="contact">
           <div id="map">
             <div id="display-google-map"><iframe frameborder="0"
-                src="https://www.google.com/maps/embed/v1/place?q=Morris+Plains,+NJ,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                src="https://www.google.com/maps/embed/v1/place?q=NJ,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
             </div><a class="our-googlemap-code" href="https://kbj9qpmy.com/hrn" id="grab-map-info">InMotion
               Hosting</a>
           </div>
@@ -120,15 +122,17 @@
                 <p>
                   <button id="submit">Submit</button>
                 </p>
+                <hr>
+                <ul>
+                  <li>Github: <a href="https://github.com/dmerk">dmerk2</a></li>
+                  <li>
+                    Email:
+                    <a href="mailto:dan.merkin@gmail.com">dan.merkin@gmail.com</a>
+                  </li>
+                </ul>
               </fieldset>
             </form>
-            <ul>
-              <li>Github: <a href="https://github.com/dmerk">dmerk2</a></li>
-              <li>
-                Email:
-                <a href="mailto:dan.merkin@gmail.com">dan.merkin@gmail.com</a>
-              </li>
-            </ul>
+
           </div>
         </div>
       </section>
