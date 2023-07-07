@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -39,24 +38,19 @@
 
       <section id="skillsSection">
         <h2>Skills</h2>
-        <div class="skills">
-          <div>
-            <label for="html">HTML </label>
-            <progress id="html" value="95" max="100"></progress>
-          </div>
-          <div>
-            <label for="css">CSS </label>
-            <progress id="css" value="70" max="100"></progress>
-          </div>
-          <div>
-            <label for="js">JavaScript </label>
-            <progress id="js" value="50" max="100"></progress>
-          </div>
+        <div id="skills">
+          <label for="html">HTML </label>
+          <progress id="html" value="95" max="100"></progress>
+          <label for="css">CSS </label>
+          <progress id="css" value="70" max="100"></progress>
+          <label for="js">JavaScript </label>
+          <progress id="js" value="50" max="100"></progress>
         </div>
       </section>
 
       <section id="projectsSection">
-        <h2>Projects</h2>
+        <h2>Previous Work</h2>
+
         <div class="projects">
           <div id="project-1">
             <a href="https://github.com/dmerk2/Horiseon_Code_Refactor">
@@ -67,13 +61,19 @@
           <div>
             <a href="https://dmerk2.github.io/Random-Password-Generator/">
               <h3>Password Generator</h3>
-              <img src="./assets/images/pw_generator.png" alt="Password-Generator" />
+              <img
+                src="./assets/images/pw_generator.png"
+                alt="Password-Generator"
+              />
             </a>
           </div>
           <div>
             <a href="#">
-              <h3>Lemon Valley </h3>
-              <img src="./assets/images/lemon_valley.png" alt="Lemon Valley Restaurant" />
+              <h3>Lemon Valley</h3>
+              <img
+                src="./assets/images/lemon_valley.png"
+                alt="Lemon Valley Restaurant"
+              />
             </a>
           </div>
           <div>
@@ -89,10 +89,18 @@
         <h2>Contact Me</h2>
         <div class="contact">
           <div id="map">
-            <div id="display-google-map"><iframe frameborder="0"
-                src="https://www.google.com/maps/embed/v1/place?q=NJ,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
-            </div><a class="our-googlemap-code" href="https://kbj9qpmy.com/hrn" id="grab-map-info">InMotion
-              Hosting</a>
+            <div id="display-google-map">
+              <iframe
+                frameborder="0"
+                src="https://www.google.com/maps/embed/v1/place?q=NJ,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+              ></iframe>
+            </div>
+            <a
+              class="our-googlemap-code"
+              href="https://kbj9qpmy.com/hrn"
+              id="grab-map-info"
+              >InMotion Hosting</a
+            >
           </div>
 
           <div>
@@ -101,38 +109,49 @@
                 <legend>Get in touch!</legend>
                 <p>
                   <label for="name">Name: </label>
-                  <input type="text" name="name" id="name" placeholder="John Smith"><br />
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="John Smith"
+                  /><br />
                 </p>
                 <p>
                   <label for="email">Email: </label>
-                  <input type="email" name="email" id="email" placeholder="johnsmith@gmail.com"><br />
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="johnsmith@gmail.com"
+                  /><br />
                 </p>
                 <p>
                   <label for="services">Services needed: </label>
                   <select name="services" id="services">
                     <option value="webDevelopment">Web Development</option>
                     <option value="webDesign">Web Design</option>
-                    <option value="seo">SEO</option>
-                  </select><br />
+                    <option value="seo">SEO</option></select
+                  ><br />
                 </p>
                 <p>
-                  <input type="checkbox" name="checkbox" id="checkbox">
+                  <input type="checkbox" name="checkbox" id="checkbox" />
                   <label for="checkbox">I am not a robot</label>
                 </p>
                 <p>
                   <button id="submit">Submit</button>
                 </p>
-                <hr>
+
                 <ul>
                   <li>Github: <a href="https://github.com/dmerk">dmerk2</a></li>
                   <li>
                     Email:
-                    <a href="mailto:dan.merkin@gmail.com">dan.merkin@gmail.com</a>
+                    <a href="mailto:dan.merkin@gmail.com"
+                      >dan.merkin@gmail.com</a
+                    >
                   </li>
                 </ul>
               </fieldset>
             </form>
-
           </div>
         </div>
       </section>
@@ -142,5 +161,4 @@
       <p>&copy 2023 Daniel Merkin</p>
     </footer>
   </body>
-
 </html>
