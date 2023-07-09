@@ -1,152 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daniel Merkin Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <h1>Daniel Merkin</h1>
-      <nav>
-        <ul>
-          <li><a href="#aboutSection">About</a></li>
-          <li><a href="#skillsSection">Skills</a></li>
-          <li><a href="#projectsSection">Projects</a></li>
-          <li><a href="#contactSection">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Merkin Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
 
-    <main>
-      <figure class="hero"></figure>
+<body>
+  <header>
+    <h1>Daniel Merkin</h1>
+    <nav>
+      <ul>
+        <li><a href="#aboutSection">About</a></li>
+        <li><a href="#projectsSection">Projects</a></li>
+        <li><a href="#contactSection">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      <section id="aboutSection">
-        <h2>About Me</h2>
-        <div class="about">
-          <img src="https://via.placeholder.com/250" alt="Daniel Merkin" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-            laudantium repudiandae rem ipsa! Tempore culpa eligendi quam,
-            tenetur, voluptate quae consectetur nesciunt sapiente eius
-            architecto totam vero! Provident, rerum magni!
-          </p>
+  <main>
+    <figure class="hero"></figure>
+
+    <section id="aboutSection">
+      <h2>About Me</h2>
+      <div class="about">
+        <img src="https://via.placeholder.com/250" alt="Daniel Merkin" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+          laudantium repudiandae rem ipsa! Tempore culpa eligendi quam,
+          tenetur, voluptate quae consectetur nesciunt sapiente eius
+          architecto totam vero! Provident, rerum magni!
+        </p>
+      </div>
+    </section>
+
+    <section id="projectsSection">
+      <h2>Previous Work</h2>
+
+      <div class="projects">
+        <div id="project-1">
+          <a href="https://github.com/dmerk2/Horiseon_Code_Refactor">
+            <h3>Horiseon Website</h3>
+            <img src="./assets/images/horiseon.png" alt="Horiseon Website" />
+          </a>
         </div>
-      </section>
-
-      <section id="projectsSection">
-        <h2>Previous Work</h2>
-
-        <div class="projects">
-          <div id="project-1">
-            <a href="https://github.com/dmerk2/Horiseon_Code_Refactor">
-              <h3>Horiseon Website</h3>
-              <img src="./assets/images/horiseon.png" alt="Horiseon Website" />
-            </a>
-          </div>
-          <div>
-            <a href="https://dmerk2.github.io/Random-Password-Generator/">
-              <h3>Password Generator</h3>
-              <img
-                src="./assets/images/pw_generator.png"
-                alt="Password-Generator"
-              />
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <h3>Lemon Valley</h3>
-              <img
-                src="./assets/images/lemon_valley.png"
-                alt="Lemon Valley Restaurant"
-              />
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <h3>Coming Soon</h3>
-              <img src="https://via.placeholder.com/250" alt="Coming Soon" />
-            </a>
-          </div>
+        <div>
+          <a href="https://dmerk2.github.io/Random-Password-Generator/">
+            <h3>Password Generator</h3>
+            <img src="./assets/images/pw_generator.png" alt="Password-Generator" />
+          </a>
         </div>
-      </section>
-
-      <section id="contactSection">
-        <h2>Contact Me</h2>
-        <div class="contact">
-          <div id="map">
-            <div id="display-google-map">
-              <iframe
-                frameborder="0"
-                src="https://www.google.com/maps/embed/v1/place?q=NJ,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-              ></iframe>
-            </div>
-            <a
-              class="our-googlemap-code"
-              href="https://kbj9qpmy.com/hrn"
-              id="grab-map-info"
-              >InMotion Hosting</a
-            >
-          </div>
-
-          <div>
-            <form>
-              <fieldset>
-                <legend>Get in touch!</legend>
-                <p>
-                  <label for="name">Name: </label>
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="John Smith"
-                  /><br />
-                </p>
-                <p>
-                  <label for="email">Email: </label>
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="johnsmith@gmail.com"
-                  /><br />
-                </p>
-                <p>
-                  <label for="services">Services needed: </label>
-                  <select name="services" id="services">
-                    <option value="webDevelopment">Web Development</option>
-                    <option value="webDesign">Web Design</option>
-                    <option value="seo">SEO</option></select
-                  ><br />
-                </p>
-                <p>
-                  <input type="checkbox" name="checkbox" id="checkbox" />
-                  <label for="checkbox">I am not a robot</label>
-                </p>
-                <p>
-                  <button id="submit">Submit</button>
-                </p>
-
-                <ul>
-                  <li>Github: <a href="https://github.com/dmerk">dmerk2</a></li>
-                  <li>
-                    Email:
-                    <a href="mailto:dan.merkin@gmail.com"
-                      >dan.merkin@gmail.com</a
-                    >
-                  </li>
-                </ul>
-              </fieldset>
-            </form>
-          </div>
+        <div>
+          <a href="#">
+            <h3>Lemon Valley</h3>
+            <img src="./assets/images/lemon_valley.png" alt="Lemon Valley Restaurant" />
+          </a>
         </div>
-      </section>
-    </main>
+        <div>
+          <a href="#">
+            <h3>Coming Soon</h3>
+            <img src="https://via.placeholder.com/250" alt="Coming Soon" />
+          </a>
+        </div>
+      </div>
+    </section>
 
-    <footer>
-      <p>&copy 2023 Daniel Merkin</p>
-    </footer>
-  </body>
+    <section id="contactSection">
+      <h2>Contact Me</h2>
+      <div class="contact">
+        <div id="map">
+          <div id="display-google-map">
+            <iframe frameborder="0"
+              src="https://www.google.com/maps/embed/v1/place?q=NJ,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+          </div>
+          <a class="our-googlemap-code" href="https://kbj9qpmy.com/hrn" id="grab-map-info">InMotion Hosting</a>
+        </div>
+
+        <div>
+          <form>
+            <fieldset>
+              <legend>Get in touch!</legend>
+              <p>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="John Smith" /><br />
+              </p>
+              <p>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="johnsmith@gmail.com" /><br />
+              </p>
+              <p>
+                <label for="services">Services needed: </label>
+                <select name="services" id="services">
+                  <option value="webDevelopment">Web Development</option>
+                  <option value="webDesign">Web Design</option>
+                  <option value="seo">SEO</option>
+                </select><br />
+              </p>
+              <p>
+                <input type="checkbox" name="checkbox" id="checkbox" />
+                <label for="checkbox">I am not a robot</label>
+              </p>
+              <p>
+                <button id="submit">Submit</button>
+              </p>
+
+              <ul>
+                <li>Github: <a href="https://github.com/dmerk">dmerk2</a></li>
+                <li>
+                  Email:
+                  <a href="mailto:dan.merkin@gmail.com">dan.merkin@gmail.com</a>
+                </li>
+              </ul>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy 2023 Daniel Merkin</p>
+  </footer>
+</body>
+
 </html>
