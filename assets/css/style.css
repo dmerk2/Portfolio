@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #eae2d663;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif
 }
 
 /* Making a sticky header */
@@ -27,7 +27,6 @@ header {
 
 header h1 {
   width: 100vw;
-  font-family: sans-serif;
 }
 
 header nav {
@@ -63,12 +62,23 @@ header nav ul li a:hover {
   background-size: cover;
   background-position: center;
   box-shadow: var(--shadow);
+  position: relative;
+}
+
+.hero h2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: var(--light);
+  font-size: 1.9rem;
+  padding: 10px;
+  box-shadow: var(--shadow);
+
 }
 
 h2,
 h4 {
   font-size: 2.2rem;
-  font-family: sans-serif;
   text-align: var(--center);
   margin: 25px 0;
 }
