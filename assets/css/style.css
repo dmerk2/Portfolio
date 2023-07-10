@@ -1,3 +1,4 @@
+/* Applying global variables */
 :root {
   --shadow: 5px 5px 5px rgb(128, 124, 124);
   --light: #e5e5e5;
@@ -9,10 +10,10 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #eae2d663;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
+/* Making a sticky header */
 header {
   display: flex;
   background: var(--light);
@@ -33,6 +34,7 @@ header nav {
   width: 90vw;
 }
 
+/* Moving the ul to the end of the flex-box */
 header nav ul {
   display: flex;
   justify-content: flex-end;
@@ -47,10 +49,13 @@ header nav ul li a {
   color: black;
 }
 
+/* All the a tags while hover get background color and padding */
 header nav ul li a:hover {
-  text-decoration: underline;
+  background-color: blanchedalmond;
+  padding: 5px;
 }
 
+/* Adding an image as the background to class hero */
 .hero {
   height: 400px;
   width: 100%;
@@ -74,6 +79,7 @@ h3 {
   font-size: 1.3rem;
 }
 
+/* Sets the size of the portrait */
 #portrait {
   width: 200px;
   height: 200px;
@@ -89,12 +95,14 @@ p {
   line-height: 1.5;
 }
 
+/* Changes border shadow and curves border */
 .about img {
   border-radius: 25%;
   box-shadow: var(--shadow);
   margin-bottom: 10px;
 }
 
+/* Arranges work section in a row */
 .row {
   display: flex;
   justify-content: space-evenly;
@@ -107,8 +115,9 @@ p {
   width: 75%;
 }
 
+/* Applying shadow and set image to be full size of card class */
 .cardImage {
-  margin: 15px;
+  margin: 15px auto;
   width: 100%;
   box-shadow: var(--shadow);
   border-radius: 10px;
@@ -121,6 +130,7 @@ p {
   margin: 15px;
 }
 
+/* All the a tags inside of the p element */
 p a {
   text-decoration: none;
   color: black;
@@ -135,12 +145,14 @@ footer {
   background: var(--light);
 }
 
+/* Makes screen responsive at 667px and realigns items */
 @media screen and (max-width: 667px) {
   .row {
     flex-wrap: wrap;
     justify-content: center;
   }
 
+  /* Moves the ul under the h1 */
   header {
     flex-wrap: wrap;
     text-align: center;
@@ -148,9 +160,9 @@ footer {
 
   header nav ul {
     justify-content: center;
-    margin-left: 2rem;
   }
 
+  /* Aligning the contact section into a column */
   .contact {
     flex-wrap: wrap;
     flex-direction: column;
