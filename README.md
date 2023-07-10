@@ -26,7 +26,7 @@ https://dmerk2.github.io/Portfolio/
 
 ## Usage
 
-![portfolio](./assets/images/)
+![portfolio](./assets/images/preview.gif)
 
 ## Credits
 
