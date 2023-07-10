@@ -5,6 +5,7 @@
 - [Description](#description)
 - [Deployed-URL](#deployed-url)
 - [Credits](#credits)
+- [License](#license)
 - [Tests](#tests)
 - [Questions](#questions)
 
@@ -31,6 +32,11 @@ https://dmerk2.github.io/Portfolio/
 
 ```
 Daniel Merkin contributed to this project
+```
+## License
+
+```
+MIT License
 ```
 
 ## Test
