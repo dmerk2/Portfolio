@@ -17,7 +17,7 @@
 - Clicking a link to previous work will take you to that webpage
 - Implementing responsive design
 - Using flexbox and media queries
-- Hovering over previous work will enlarge and rotate the images
+- Section with contact links
 ```
 
 ## Deployed URL
