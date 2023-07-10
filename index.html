@@ -7,6 +7,8 @@
   <title>Daniel Merkin Portfolio</title>
   <link rel="stylesheet" href="./assets/css/reset.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+    type='text/css'>
 </head>
 
 <body>
@@ -27,48 +29,54 @@
     <section id="aboutSection">
       <h2>About Me</h2>
       <div class="about">
-        <img src="https://via.placeholder.com/250" alt="Daniel Merkin" />
+        <img src="./assets/images/portrait.jpeg" alt="Daniel Merkin" id="portrait" />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-          laudantium repudiandae rem ipsa! Tempore culpa eligendi quam,
-          tenetur, voluptate quae consectetur nesciunt sapiente eius
-          architecto totam vero! Provident, rerum magni!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, laudantium dolorem mollitia temporibus dicta
+          suscipit dolore quos. Sint molestiae ducimus soluta eveniet consequatur minus quaerat ratione, voluptatum
+          debitis nisi voluptate! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae sunt illum dignissimos
+          provident qui, asperiores, quis eos laudantium dolorum accusamus at non impedit vel libero quibusdam odio
+          expedita iusto corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eum ipsam sint
+          nam, nesciunt necessitatibus id dolorum itaque qui. Quibusdam modi suscipit delectus aperiam dolor, eius
+          quisquam architecto accusantium illum!
         </p>
       </div>
     </section>
 
     <section id="projectsSection">
-      <h2>Previous Work</h2>
-      <!-- <div class="work">
-        <h3>Test</h3>
-        <img src="./assets/images/pw_generator.png" alt="" id="horiseonImage">
-      </div> -->
-      <!-- <div>
-        <img src="./assets/images/pw_generator.png" alt="">
-      </div> -->
-      <div class="projects">
-        <div id="project-1">
-          <a href="https://dmerk2.github.io/Horiseon_Code_Refactor/">
-            <h3>Horiseon Website</h3>
-            <img src="./assets/images/horiseon.png" alt="Horiseon Website" />
+      <h2>Work</h2>
+      <div class="row">
+        <div class="card">
+          <a href="https://dmerk2.github.io/comfy-cafe/">
+            <h3>Comfy Cafe</h3>
+            <img src="./assets/images/comfy_cafe.png" alt="Comfy Cafe" class="cardImage">
           </a>
         </div>
-        <div>
-          <a href="https://github.com/dmerk2/Anon-Profile-Generator">
-            <h3>Profile Generator</h3>
-            <img src="./assets/images/generate.png" alt="Profile-Generator" />
+      </div>
+      <div class="row">
+        <div class="card">
+          <a href="https://dmerk2.github.io/Anon-Profile-Generator/">
+            <h3>Anonymous Profile Generator</h3>
+            <img src="./assets/images/generate.png" alt="Profile Generator" class="cardImage" />
           </a>
         </div>
-        <div>
-          <a href="https://dmerk2.github.io/lemon-valley/">
-            <h3>Lemon Valley</h3>
-            <img src="./assets/images/lemon_valley.png" alt="Lemon Valley Restaurant" />
+        <div class="card">
+          <a href="https://dmerk2.github.io/Random-Password-Generator/">
+            <h3>Password Generator</h3>
+            <img src="./assets/images/pw_generator.png" alt="Password Generator" class="cardImage">
           </a>
         </div>
-        <div>
+      </div>
+      <div class="row">
+        <div class="card">
           <a href="https://dmerk2.github.io/jerry_harveys/">
             <h3>Jerry and Harveys</h3>
-            <img src="./assets/images/jerry_and_harveys.png" alt="Jerry and Harveys" />
+            <img src="./assets/images/jerry_and_harveys.png" alt="Jerry and Harveys" class="cardImage" />
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://dmerk2.github.io/lemon-valley/">
+            <h3>Lemon Valley</h3>
+            <img src="./assets/images/lemon_valley.png" alt="Lemon Valley" class="cardImage">
           </a>
         </div>
       </div>
@@ -77,53 +85,12 @@
     <section id="contactSection">
       <h2>Contact Me</h2>
       <div class="contact">
-        <div id="map">
-          <div id="display-google-map">
-            <iframe frameborder="0"
-              src="https://www.google.com/maps/embed/v1/place?q=NJ,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
-          </div>
-          <a class="our-googlemap-code" href="https://kbj9qpmy.com/hrn" id="grab-map-info">InMotion Hosting</a>
-        </div>
-
-        <div>
-          <form>
-            <fieldset>
-              <legend>Get in touch!</legend>
-              <p>
-                <label for="name">Name: </label>
-                <input type="text" name="name" id="name" placeholder="John Smith" /><br />
-              </p>
-              <p>
-                <label for="email">Email: </label>
-                <input type="email" name="email" id="email" placeholder="johnsmith@gmail.com" /><br />
-              </p>
-              <p>
-                <label for="services">Services needed: </label>
-                <select name="services" id="services">
-                  <option value="webDevelopment">Web Development</option>
-                  <option value="webDesign">Web Design</option>
-                  <option value="seo">SEO</option>
-                </select><br />
-              </p>
-              <p>
-                <input type="checkbox" name="checkbox" id="checkbox" />
-                <label for="checkbox">I am not a robot</label>
-              </p>
-              <p>
-                <button id="submit">Submit</button>
-              </p>
-
-              <ul>
-                <li>Github: <a href="https://github.com/dmerk">dmerk2</a></li>
-                <li>
-                  Email:
-                  <a href="mailto:dan.merkin@gmail.com">dan.merkin@gmail.com</a>
-                </li>
-              </ul>
-            </fieldset>
-          </form>
-        </div>
+        <p><a href="tel:6096130059"><i class="fa fa-phone"></i> (609) 613-0059</a></p>
+        <p><i class="fa fa-envelope"><a href="mailto:dan.merkin@gmail.cmom"> dan.merkin@gmail.com</a></i></p>
+        <p><a href="https://github.com/dmerk"><i class="fa fa-github"></i></a></p>
+        <p><a href="https://www.linkedin.com/in/dmerk2/"><i class="fa fa-linkedin" style="color: #2868d7;"></i></a></p>
       </div>
+
     </section>
   </main>
 
